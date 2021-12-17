@@ -34,6 +34,17 @@ footer{
     bottom: 0;
 }
 
+#social{
+    display: inline-block;
+    margin-left: 15%;
+    top: 50px;
+}
+#nome{
+    display: inline-block;
+    margin-left: 15%;
+}
+
+
 #conteudo{
     margin: auto;
     width: 92%;
@@ -60,15 +71,32 @@ footer{
 }
 
 #div-logo{
-   display: inline-block;
-
+    display: inline-block;
+    /*background-color: greenyellow;*/
 }
 
 #div-menu{
     position: absolute;
     right: 8%;
-    
+    top: 50px;
+    font-size: 1.3em;
     /* float: right; */
     display: inline-block;
+    /*background-color: crimson;*/
     
+}
+
+#lista-conhecimento{
+    display: inline-block;
+    width: 30%;
+    height: 400px;
+    /*background-color: rgb(255, 0, 0);*/
+}
+
+#conhecimento{
+    position: absolute;
+    display: inline-block;
+    width: 60%;
+    height: 400px;
+    /*background-color: chartreuse;*/
 }
