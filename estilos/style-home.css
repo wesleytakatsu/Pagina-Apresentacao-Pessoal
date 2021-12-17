@@ -15,6 +15,19 @@ body, html{
     background-attachment: fixed;
     background-size: cover;
     font: normal Arial 16px 
+    
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: ;
 }
 
 header{
@@ -98,5 +111,6 @@ footer{
     display: inline-block;
     width: 60%;
     height: 400px;
+    margin-top: 20px;
     /*background-color: chartreuse;*/
 }
