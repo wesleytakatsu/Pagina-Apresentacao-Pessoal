@@ -50,6 +50,11 @@ function javaa(){
 function pythonn(){
     conhecimento.innerHTML =`<p>Python</p>`;
 }
+
+function dotnet(){
+    conhecimento.innerHTML =`<p>.NET</p>`;
+}
+
 function sqll(){
     conhecimento.innerHTML =`<p>SQL</p>
     `;
