@@ -41,22 +41,34 @@ function cc(){
 }
 function cplusplus(){
     conhecimento.innerHTML =`<p>Linguagem C++</p>
+    <p>Minha experiência com C++ foi na faculdade, quando tive meu primeiro contato com Orientação a Objetos. É uma linguagem que estudei apenas por um período na faculdade e que fiz pequenos projetinhos de terminal.</p>
+    <p>Esse meu conhecimento envolve os conhecimentos essenciais de Orientação a Objetos como construtores, encapsulamento, polimorfismo, sobrecarga de métodos, herança, abstração, inferfaces, métodos get e set e eventos. Aprendi a manipulação com arquivos de texto e binário, com leituras usando stream. Também estudei conexão com banco de dados MySQL, pegar informações, executar queryes e manipular o que for necessário no BD usando o C++.</p>
     `;
 }
 function javaa(){
     conhecimento.innerHTML =`<p>Java</p>
+    <p></p>
+    <p></p>
     `;
 }
 function pythonn(){
-    conhecimento.innerHTML =`<p>Python</p>`;
+    conhecimento.innerHTML =`<p>Python</p>
+    <p></p>
+    <p></p>
+    `;
 }
 
 function dotnet(){
-    conhecimento.innerHTML =`<p>.NET</p>`;
+    conhecimento.innerHTML =`<p>.NET</p>
+    <p></p>
+    <p></p>
+    `;
 }
 
 function sqll(){
     conhecimento.innerHTML =`<p>SQL</p>
+    <p></p>
+    <p></p>
     `;
 }
 
