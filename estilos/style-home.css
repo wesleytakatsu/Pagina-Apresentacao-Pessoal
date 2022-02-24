@@ -84,7 +84,7 @@ footer{
 
 .espaco{
     /* width: 92px; */
-    height: 100px;
+    height: 50px;
 }
 
 #div-intro{
@@ -146,4 +146,20 @@ footer{
         min-width: 300px;
         margin-top: 5px;
     }
+}
+
+#div-proj{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: center;
+}
+
+.div-img-certificados{
+
+}
+
+.img-certificados{
+    width: 200px;
+    height: 156px;
 }
