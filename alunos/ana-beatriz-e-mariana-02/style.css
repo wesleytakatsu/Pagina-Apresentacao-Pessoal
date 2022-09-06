@@ -1,0 +1,34 @@
+body{
+    background-color: blueviolet;
+    color: black;
+    font-size: 1.2em;
+    background-image: url("instrumento.jpg")
+
+}
+
+header{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+footer{
+    font: size 1.2em; 
+    position: absolute;
+    bottom: 0;    
+}
+
+#celular{
+    visibility: hidden;
+}
+#computador{
+    visibility: visible;
+}
+@media(max-width:650px){
+    #celular{
+        visibility: visible;
+    }
+    #computador{
+        visibility: hidden;
+    } 
+}
+    

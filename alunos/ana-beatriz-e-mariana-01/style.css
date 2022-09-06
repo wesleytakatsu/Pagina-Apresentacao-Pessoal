@@ -1,0 +1,77 @@
+body{
+    background-color: blueviolet;
+    color: black;
+    font-size: 1.2em;
+    background-image: url("instrumento.jpg");
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+footer{
+    font-size: 1.8em; 
+    position: absolute;
+    bottom: 0;    
+}
+
+#celular{
+    visibility: hidden;
+}
+#computador{
+    visibility: visible;
+}
+@media(max-width:650px){
+    #celular{
+        visibility: visible;
+    }
+    #computador{
+        visibility: hidden;
+    } 
+}
+
+#precos{
+    /*margin-left: 30%;*/
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30PX;
+    height: 550px;
+    width: 600px;
+    color: aliceblue;
+}
+main{
+    font-size: 1.6em;
+}
+#nos{
+    background-color:rgba(0, 0, 0, 0.6);
+    border-radius: 30PX;
+    height: 550px;
+    width: 600px;
+    color: aliceblue;
+    font-size: 1.6em;
+}
+/*
+#principal{
+    width: 50%;
+    border-right: 400px;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+*/
+#flexbox-container{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aquamarine;
+}
+#parte1{
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+}
+#parte2{
+    height: 200px;
+    width: 400px;
+    background-color: blueviolet;
+}

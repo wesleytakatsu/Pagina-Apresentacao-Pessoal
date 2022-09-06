@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="media/favicon-16x16-bg.ico">
+    <link rel="stylesheet" href="styles/style-home.css">
+    
+    <!-- GOOGLE API LOGIN -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="843407503335-sk85diof1dfdst9oh9c52vf58npkmi8s.apps.googleusercontent.com">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takatsu Projects : Login</title>
+</head>
+<body>
+<header>
+        <div class="flex-container">
+            <div id="div-logo">
+                <img src="media/img/Logo-Takatsu-Projetos.png">
+            </div>
+            <div id="div-menu">
+                <img id="botao-menu" onclick="menuClick()" src="media/img/menu-icon.png" alt="Botão do menu" />
+                <nav id="nav-bar"></nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- GOOGLE API LOGIN BUTTON -->
+    <!-- <div class="g-signin2" data-onsuccess="onSignIn"></div> -->
+    <!-- GOOGLE API LOGIN -->
+    <script>
+        function onSignIn(googleUser) {
+            /*var userProfile = googleUser.getBasicProfile();
+            var userId = profile.getId();
+            var userName = profile.getName();
+            var userImg = profile.getImageUrl();
+            var userEmail = profile.getEmail();*/
+            //var userToken = googleUser.getAuthResponse().id_token;
+            console.log('teste');
+            console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+            console.log('Name: ' + profile.getName());
+            console.log('Image URL: ' + profile.getImageUrl());
+            console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+        }
+    </script>
+
+    <div id="g_id_onload"
+        data-client_id="843407503335-sk85diof1dfdst9oh9c52vf58npkmi8s.apps.googleusercontent.com"
+        data-context="signin"
+        data-ux_mode="popup"
+        data-login_uri="Entre com o google">
+    </div>
+
+    <div class="g_id_signin"
+        data-type="standard"
+        data-shape="pill"
+        data-theme="filled_black"
+        data-text="$ {button.text}"
+        data-size="large"
+        data-logo_alignment="left">
+    </div>
+    <main>
+        <div id="conteudo">
+            <div id="div-intro" class="main">
+                Aqui entrará o formulário.
+            </div>
+        </div>
+    </main>
+
+    <footer class="main" id="commonFooter"></footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/script-descricao.js"></script>
+</body>
+</html>

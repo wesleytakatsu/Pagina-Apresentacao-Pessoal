@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+#Celular {/* hidden esconder por enquanto */
+    visibility: hidden;
+}
+
+#Computador { /* visivel por enquanto */
+    visibility: visible;
+}
+
+@media(max-width: 650px) { /*Quando a tela diminuir a mensage vai mudar de tela de computador para tela de celular */
+    #Celular {/* hidden esconder por enquanto */
+        visibility: visible;
+    }
+    
+    #Computador { /* visivel por enquanto */
+        visibility: hidden;
+    }
+}
+

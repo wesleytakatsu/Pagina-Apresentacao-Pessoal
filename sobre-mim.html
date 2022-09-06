@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="media/favicon-16x16-bg.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takatsu Projects</title>
+    <link rel="stylesheet" href="styles/style-home.css">
+    <link rel="stylesheet" href="styles/menuAction.css">
+    <link rel="stylesheet" href="styles/style-conhecimentos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div id="div-logo">
+                <img src="media/img/Logo-Takatsu-Projetos.png">
+            </div>
+            <div class="menuContainer" onclick="menuClick(this)">
+                <div class="menuBar1"></div>
+                <div class="menuBar2"></div>
+                <div class="menuBar3"></div>
+            </div>
+            
+            <div id="div-menu">
+                <nav id="nav-bar"></nav>
+            </div>
+            
+        </div>
+    </header>
+    <section>
+        <div id="slide">
+            <a href="#" class="btnClose"></a>
+            <div id="slideInside">
+                
+            </div>
+        </div>
+    <div id="conteudo">
+        <div id="div-intro" class="vidro">
+            <article>
+                <h2>Quem sou eu:</h2>
+                <p>
+                    Nome: Wesley Sieiro Takatsu de Araujo<br>
+                    Idade: 32 anos<br>
+                    Residente na cidade Rio de Janeiro<br>
+                    Carioca<br>
+                </p>
+                <p>Esta página foi criada com o intúito de me apresentar.<br>
+                Meu nome é Wesley e busco minha primeira oportunidade em programação.<br>
+                Desejo me tornar um desenvolvedor full stack.<br>
+                Quero um lugar que eu possa iniciar a minha carreira.</p>
+                <p>Estou estudando atualmente o ReactJS.<br>
+                Estou atualmente nos Bootcamps da Digital Inovation One (DIO).</p>
+                Sobre as linguagens que eu conheço atualmente:<br>
+                <br>
+                
+                
+            </article>
+        </div>
+        <div class="espaco"></div>
+        <div id="parte-conhecimentos" class="vidro flexbox-container">
+            <div id="lista-conhecimento">
+            <strong>Clicando na categoria eu explico meu nível de conhecimento na área.</strong>
+            <p>
+                <a href="#" onclick="carregaConhecimento('gerais.html')">Conhecimentos gerais</a><br>
+                <a href="#" onclick="carregaConhecimento('html-e-css.html')">HTML e CSS</a><br>
+                <a href="#" onclick="carregaConhecimento('javascript.html')">JavaScript</a><br>
+                <a href="#" onclick="carregaConhecimento('infraestrutura-em-nuvem.html')">Infraestrutura em núvem (Oracle OCI)</a><br>
+                <a href="#" onclick="carregaConhecimento('c-e-cpp.html')">C e C++</a><br>
+                <a href="#" onclick="carregaConhecimento('dotnet.html')">.NET / C# / ASP.NET</a><br>
+                <a href="#" onclick="carregaConhecimento('java.html')">Java</a><br>
+                <a href="#" onclick="carregaConhecimento('phyton.html')">Phyton</a><br>
+                <a href="#" onclick="carregaConhecimento('sql.html')">SQL</a><br>
+            </p>
+            </div>
+
+        </div>
+
+        <div class="espaco"></div>
+
+        <div id="div-proj" class="vidro">
+            <p>
+                Falando um pouco sobre minhas capacidades e projetos.
+            </p>
+            <article>
+                <h2>O que eu busco:</h2>
+                <p>Atualmente estou a procura de uma oportunidade de trabalhar na área como desenvolvedor FullStack.</p>
+                <p>Meu foco agora é estudar todas as matérias necessárias para ter um bom domínio sobre programação com JavaScript usando a biblioteca NodeJS, somando com Webpack + Babel e EsLint.</p>
+                <p>Eu também tenho um bom domínio de PHP e banco de dados relacional como o MySQL.</p>
+                <p>Algumas habilidades extras são o uso o JQuery, JSON, Wordpress, Bootstrap, servidores Linux, SSH, versionamento de softwares (Git), FTP, redes, infraestrutura em núvem e muitas outras Soft Skills que podem ser importantes dependendo da área de atuação.</p>
+            </article>
+           
+        </div>
+        </section>
+        
+        <div class="espaco"></div>
+
+        <footer class="vidro" id="commonFooter"></footer>
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/script-conhecimentos.js"></script>
+</body>
+</html>

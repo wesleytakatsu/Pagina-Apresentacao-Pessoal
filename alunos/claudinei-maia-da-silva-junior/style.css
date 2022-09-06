@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+
+table{
+    border: 1px solid;
+    background-color: rgb(79, 205, 227);
+}
+
+table tr td{
+    border:1px solid;
+}

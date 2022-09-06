@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+}
+
+#Cabecalho{
+    text-align: center;
+}
+
+#Texto{
+    position: absolute;
+    text-align: center;
+    left: 27%;
+    margin-top: 5%;
+
+}
+
+#Rodape{
+    color: darkslategrey;
+    background-color: beige;
+    font-size: larger;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    text-align: center;
+}

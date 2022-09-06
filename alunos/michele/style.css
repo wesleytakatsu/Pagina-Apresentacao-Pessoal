@@ -1,0 +1,15 @@
+body{
+    background-color: chartreuse;
+    color: black;
+}
+#flexbox-container{
+    flex-direction:row;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:pink;
+}
+#parte1{
+    height: 400px;
+    width: 200px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Menu</title>
+    <style>
+        .Produto {
+            color: #66533B;
+            font-size: 22px;
+            margin-left: 5px;
+        }
+
+        #divisoria {
+            position: absolute;
+            left: 52%;
+        }
+
+        .Tipos {
+            font-family:fantasy;
+            font-style: oblique;
+            color: darkslategray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p style="font-size: larger;"><a href="../index.html"><img src="seta.png" alt=""></a></p>
+        <div id="Cabecalho">
+            <h1>CARDÁPIO</h1>
+        </div>
+    </header>
+    <hr>
+    <div class="flexbox-container">
+        <section>
+            <header>
+                <h1 class="titulo">Comestiveis</h1>
+            </header>
+            <div class="Produto">
+                <ol type="I">
+                    <li>Doces
+                    <div class="Tipos">
+                        <ul type="square" class="Variacoes">
+                            <li>Sonho</li>
+                            <li>Bolo</li>
+                        </ul>
+                    </div>
+                    <li>Salgados
+                    <section>
+                        <div class="Tipos">
+                            <ul type="square" class="Variacoes">
+                                <li>Pastel</li>
+                                <li>Kibe</li>
+                            </ul>
+                        </div>
+                    </section>
+                </ol>
+            </div>
+        </section>
+        <section>
+            <div id="divisoria">
+                <header>
+                    <h1 class="titulo">Bebidas</h1>
+                </header>
+                <section>
+                    <div class="Produto">
+                        <ol type="I">
+                            <li>Água
+                            <section>
+                                <div class="Tipos">
+                                    <ul type="square" class="Variacoes">
+                                        <li>Com Gás</li>
+                                        <li>Sem Gás</li>
+                                    </ul>
+                                </div>
+                            </section>
+                            <li>Café
+                            <section>
+                                <div class="Tipos">
+                                    <ul type="square" class="Variacoes">
+                                        <li>Puro</li>
+                                        <li>Com Leite</li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </ol>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

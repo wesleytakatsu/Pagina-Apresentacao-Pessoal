@@ -1,0 +1,22 @@
+body{
+    background-color: blueviolet;
+    color:aqua;
+}
+
+#flexbox-container{
+    flex-direction: row;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    background-color :rgb(34, 169, 169)
+}
+#parte1{
+    height: 200px;
+    width: 400px;
+    background-color: deeppink;
+}
+#parte2{
+    height: 200px;
+    width: 400px;
+    background-color: crimson;
+}

@@ -1,0 +1,31 @@
+body{
+    color:brown; 
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+#celular{
+    visibility: hidden;
+}
+
+#computador{
+    visibility: visible;
+}
+@media(max-width:650px){
+
+}
+@media(max-width:950px){
+
+}
+@media(max-width:1050px){
+    
+}
+
+
+
+    
+
+
+

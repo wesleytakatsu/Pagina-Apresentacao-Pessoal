@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="media/favicon-16x16-bg.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takatsu Projects</title>
+    <link rel="stylesheet" href="styles/style-home.css">
+    <link rel="stylesheet" href="styles/menuAction.css">
+    <link rel="stylesheet" href="styles/style-conhecimentos.css">
+    <link rel="stylesheet" href="styles/style-img-slides.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div id="div-logo">
+                <img src="media/img/Logo-Takatsu-Projetos.png">
+            </div>
+            <div class="menuContainer" onclick="menuClick(this)">
+                <div class="menuBar1"></div>
+                <div class="menuBar2"></div>
+                <div class="menuBar3"></div>
+            </div>
+            
+            <div id="div-menu">
+                <nav id="nav-bar"></nav>
+            </div>
+            
+        </div>
+    </header>
+    <section>
+        <div id="slide">
+            <a href="#" class="btnClose"></a>
+            <div id="slideInside">
+                
+            </div>
+        </div>
+    <div id="conteudo">
+        <div id="div-intro" class="vidro">
+            <p>
+                Atualmente trabalho na Microcamp Madureira.
+            </p>
+            <article>
+                <h2>O que temos nos Slides?</h2>
+                <p>Abaixo exibo as fotos onde estou com meus alunos.</p>
+                <p>Aqui eu ensino sobre hardware e programação.<br>
+                Ensino eletrônica, manutenção de PCs, notebooks, celulares, configuração de redes, sistemas linux, arquitetura de computadores, IoT com Arduino, Webdesign com HTML, CSS e Javascript e muitas outras coisas.</p>
+                 
+                
+            </article>
+        </div>
+        <div class="espaco"></div>
+
+        <div class="vidro flexbox-container">
+            <ul class="img-slides">
+                <input type="radio" name="radio-btn" id="img-1" checked />
+                <li class="img-slide-container">
+                    <div class="img-slide">
+                        <img src="./media/galeria/01.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-6" class="prev">&#x2039;</label>
+                        <label for="img-2" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-2" />
+                <li class="img-slide-container">
+                    <div class="img-slide">
+                      <img src="./media/galeria/02.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-1" class="prev">&#x2039;</label>
+                        <label for="img-3" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-3" />
+                <li class="img-slide-container">
+                    <div class="img-slide">
+                      <img src="./media/galeria/03.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-2" class="prev">&#x2039;</label>
+                        <label for="img-4" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-4" />
+                <li class="img-slide-container">
+                    <div class="img-slide">
+                      <img src="./media/galeria/04.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-3" class="prev">&#x2039;</label>
+                        <label for="img-5" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-5" />
+                <li class="img-slide-container">
+                    <div class="img-slide">
+                      <img src="./media/galeria/05.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-4" class="prev">&#x2039;</label>
+                        <label for="img-6" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <input type="radio" name="radio-btn" id="img-6" />
+                <li class="img-slide-container">
+                    <div class="img-slide">
+                      <img src="./media/galeria/06.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-5" class="prev">&#x2039;</label>
+                        <label for="img-1" class="next">&#x203a;</label>
+                    </div>
+                </li>
+            
+                <li class="nav-dots">
+                  <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                  <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                  <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                  <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                  <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                  <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="espaco"></div>
+
+
+        </section>
+        
+        <div class="espaco"></div>
+
+        <footer class="vidro" id="commonFooter"></footer>
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/script-conhecimentos.js"></script>
+</body>
+</html>

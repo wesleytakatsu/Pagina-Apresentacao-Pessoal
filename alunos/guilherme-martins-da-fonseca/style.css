@@ -1,0 +1,12 @@
+body{
+    font-size: 1.6em;
+    background-color: darkgray;
+    color: black;
+}
+table{
+    border: 1px solid;
+}
+table tr td{
+    border: 1px solid;
+}
+

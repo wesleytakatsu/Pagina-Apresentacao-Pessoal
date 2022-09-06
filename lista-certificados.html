@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="media/favicon-16x16-bg.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takatsu Projects</title>
+    <link rel="stylesheet" href="styles/style-home.css">
+    <link rel="stylesheet" href="styles/menuAction.css">
+    <link rel="stylesheet" href="styles/style-conhecimentos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div id="div-logo">
+                <img src="media/img/Logo-Takatsu-Projetos.png">
+            </div>
+            <div class="menuContainer" onclick="menuClick(this)">
+                <div class="menuBar1"></div>
+                <div class="menuBar2"></div>
+                <div class="menuBar3"></div>
+            </div>
+            
+            <div id="div-menu">
+                <nav id="nav-bar"></nav>
+            </div>
+            
+        </div>
+    </header>
+    <section>
+        <div id="slide">
+            <a href="#parte-conhecimentos" class="btnClose"></a>
+            <div id="slideInside">
+                
+            </div>
+        </div>
+    <div id="conteudo">
+        <div id="div-intro" class="vidro">
+            <article>
+                <h2>Meus estudos:</h2>
+                <p>É importante ressaltar logo de início que cursei até o último período do ensino superior em Tecnologia da Informação, onde falta pouco para concluir o curso mas que devido a distância tive que trancar.</p>
+                <p>Por muito tempo estudo programação e crio projetos para mim e para amigos.<br>
+                No final do ano passado me dei conta da importância de ter certificados e um portifólio para que eu possa me apresentar para as empresas.<br>
+                Desde então eu fiz cursos para obter certificados, partindo do básico, para que eu demonstre que tenho conhecimento sobre os conceitos básicos bem sólidos.<br>
+                Desejo me tornar um desenvolvedor full stack no futuro e percorro esse caminho nos meus estudos.<br>
+                Quero um lugar que eu possa iniciar a minha carreira na área de desenvolvimento de softwares, seja no front-end ou no back-end, mas que seja na área que desejo e não em suporte.</p>
+                Abaixo mostrarei meus certificados:<br>
+                <br>
+                
+                
+            </article>
+        </div>
+        <div class="espaco"></div>
+        <div id="parte-conhecimentos" class="vidro flexbox-container" style="text-align: left;">
+            <div id="lista-conhecimento">
+            <strong>Esses são alguns dos certificados que eu tenho.</strong>
+            <p>
+                <h2>Oracle:</h2>
+                <a href="#slide" onclick="carregaConhecimento('infraestrutura-em-nuvem.html')">Infraestrutura em núvem (Oracle OCI)</a><br>
+
+                <h2>Javascript:</h2>
+                <a href="#slide" onclick="carregaCertificado('Debugging e Error Handling com JavaScript', 'Debugging e error Handling com JavaScript.jpg')">Debugging e Error Handling com JavaScript</a><br>
+                <a href="#slide" onclick="carregaCertificado('Dominando Funções em JavaScript', 'Dominando Funções em JavaScript.jpg')">Dominando Funções em JavaScript</a><br>
+                <a href="#slide" onclick="carregaCertificado('Fundamentos de JavaScript Assíncrono', 'Fundamentos de JavaScript Assíncrono.jpg')">Fundamentos de JavaScript Assíncrono</a><br>
+                <a href="#slide" onclick="carregaCertificado('Introdução ao JavaScript', 'Introdução ao JavaScript.jpg')">Introdução ao JavaScript</a><br>
+                <a href="#slide" onclick="carregaCertificado('Introdução ao ReactJS', 'Introdução ao ReactJS.jpg')">Introdução ao ReactJS</a><br>
+                <a href="#slide" onclick="carregaCertificado('Introdução ao TypeScript - Explorando Classes, Tipos e Interfaces', 'Introdução ao TypeScript - Explorando Classes, Tipos e Interfaces.jpg')">Introdução ao TypeScript - Explorando Classes, Tipos e Interfaces</a><br>
+                <a href="#slide" onclick="carregaCertificado('Javascript - Map, Filter e Reduce', 'Javascript - Map, Filter e Reduce.jpg')">Javascript - Map, Filter e Reduce</a><br>
+                <a href="#slide" onclick="carregaCertificado('Manipulando a D.O.M. com JavaScript', 'Manipulando a D.O.M. com JavaScript.jpg')">Manipulando a D.O.M. com JavaScript</a><br>
+                <a href="#slide" onclick="carregaCertificado('Mapas e Conjuntos com JavaScript (Coleções)', 'Mapas e Conjuntos com JavaScript (Coleções).jpg')">Mapas e Conjuntos com JavaScript (Coleções)</a><br>
+                <a href="#slide" onclick="carregaCertificado('Módulo III - Javascript', 'Módulo III - Javascript.jpg')">Módulo III - Javascript</a><br>
+                <a href="#slide" onclick="carregaCertificado('Orientação a Objetos com JavaScript', 'Orientação a Objetos com JavaScript.jpg')">Orientação a Objetos com JavaScript</a><br>
+                <a href="#slide" onclick="carregaCertificado('Sintaxe e Operadores JavaScript', 'Sintaxe e Operadores JavaScript.jpg')">Sintaxe e Operadores JavaScript</a><br>
+                <a href="#slide" onclick="carregaCertificado('Trabalhando com Módulos em JavaScript', 'Trabalhando com Módulos em JavaScript.jpg')">Trabalhando com Módulos em JavaScript</a><br>
+                <a href="#slide" onclick="carregaCertificado('Variáveis e Tipos com JavaScript', 'Variáveis e Tipos com JavaScript.jpg')">Variáveis e Tipos com JavaScript</a><br>
+
+                <h2>HTML e CSS:</h2>
+                <a href="#slide" onclick="carregaCertificado('Introdução a Criação de Websites com HTML5 e CSS3', 'Introdução a Criação de Websites com HTML5 e CSS3.jpg')">Introdução a Criação de Websites com HTML5 e CSS3</a><br>
+                <a href="#slide" onclick="carregaCertificado('Posicionando elementos com Flexbox em CSS', 'Posicionando elementos com Flexbox em CSS.jpg')">Posicionando elementos com Flexbox em CSS</a><br>
+
+                <h2>.NET e C#:</h2>
+                <a href="#slide" onclick="carregaCertificado('Construtores, Propriedades, Delegates e Eventos em .NET', 'Construtores, Propriedades, Delegates e Eventos em .NET.jpg')">Construtores, Propriedades, Delegates e Eventos em .NET</a><br>
+                <a href="#slide" onclick="carregaCertificado('Fundamentos de Coleções e LINQ com .NET', 'Fundamentos de Coleções e LINQ com .NET.jpg')">Fundamentos de Coleções e LINQ com .NET</a><br>
+                <a href="#slide" onclick="carregaCertificado('Introdução ao C# e .NET', 'Introdução ao C# e .NET.jpg')">Introdução ao C# e .NET</a><br>
+                <a href="#slide" onclick="carregaCertificado('Primeiros passos com .NET', 'Primeiros passos com .NET.jpg')">Primeiros passos com .NET</a><br>
+                <a href="#slide" onclick="carregaCertificado('Programando com Orientação a Objeto com C#,', 'Programando com Orientação a Objeto com C#,.jpg')">Programando com Orientação a Objeto com C#,</a><br>
+
+
+                <h2>Linux:</h2>
+                <a href="#slide" onclick="carregaCertificado('Linux - Introdução ao Sistema Operacional e Terminal', 'Linux - Introdução ao Sistema Operacional e Terminal.jpg')">Linux - Introdução ao Sistema Operacional e Terminal</a><br>
+
+                <h2>Soft Skills:</h2>
+                <a href="#slide" onclick="carregaCertificado('Introdução ao Git e ao GitHub', 'Introdução ao Git e ao GitHub.jpg')">Introdução ao Git e ao GitHub</a><br>
+                <a href="#slide" onclick="carregaCertificado('Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso', 'Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso.jpg')">Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso</a><br>
+                <a href="#slide" onclick="carregaCertificado('Projetos ágeis com SCRUM', 'Projetos ágeis com SCRUM.jpg')">Projetos ágeis com SCRUM</a><br>
+
+                <h2>Algorítmos e conceitos fundamentais:</h2>
+                <a href="#slide" onclick="carregaCertificado('Aprenda o que são Estrutura de Dados e Algoritmos', 'Aprenda o que são Estrutura de Dados e Algoritmos.jpg')">Aprenda o que são Estrutura de Dados e Algoritmos</a><br>
+                <a href="#slide" onclick="carregaCertificado('Criando o ambiente de desenvolvimento', 'Criando o ambiente de desenvolvimento.jpg')">Criando o ambiente de desenvolvimento</a><br>
+                <a href="#slide" onclick="carregaCertificado('IDE Instalação e Configuração (Visual Studio)', 'IDE Instalação e Configuração (Visual Studio).jpg')">IDE Instalação e Configuração (Visual Studio)</a><br>
+                <a href="#slide" onclick="carregaCertificado('Lógica de Programação Essencial', 'Lógica de Programação Essencial.jpg')">Lógica de Programação Essencial</a><br>
+                <a href="#slide" onclick="carregaCertificado('Pensamento Computacional', 'Pensamento Computacional.jpg')">Pensamento Computacional</a><br>
+                <a href="#slide" onclick="carregaCertificado('Primeiros Passos Para Começar a Programar', 'Primeiros Passos Para Começar a Programar.jpg')">Primeiros Passos Para Começar a Programar</a><br>
+                <a href="#slide" onclick="carregaCertificado('Primeiros passos para desenvolvimento web', 'Primeiros passos para desenvolvimento web.jpg')">Primeiros passos para desenvolvimento web</a><br>
+
+                <h2>Bootcamps:</h2>
+                <a href="#slide" onclick="carregaCertificado('Boas-vindas ao Bootcamp - Spread Fullstack Developer', 'Boas-vindas ao Bootcamp - Spread Fullstack Developer.jpg')">Spread Fullstack Developer</a><br>
+                <a href="#slide" onclick="carregaCertificado('Boas-vindas ao Bootcamp Cognizant Cloud Data Engineer #2', 'Boas-vindas ao Bootcamp Cognizant Cloud Data Engineer #2.jpg')">Cognizant Cloud Data Engineer #2</a><br>
+                <a href="#slide" onclick="carregaCertificado('Boas-vindas ao Bootcamp LocalizaLabs .NET Developer #2', 'Boas-vindas ao Bootcamp LocalizaLabs .NET Developer #2.jpg')">LocalizaLabs .NET Developer #2</a><br>
+                
+
+                <h2>Projetos concluídos em cursos:</h2>
+                <a href="#slide" onclick="carregaCertificado('Recriando a página inicial do Instagram', 'Recriando a página inicial do Instagram.jpg')">Recriando a página inicial do Instagram</a><br>
+                <a href="#slide" onclick="carregaCertificado('Aprenda a criar um sistema de estacionamento usando TypeScript', 'Aprenda a criar um sistema de estacionamento usando TypeScript.jpg')">Aprenda a criar um sistema de estacionamento usando TypeScript</a><br>
+                
+                
+                <a href="#slide" onclick="carregaCertificado('', '.jpg')"></a><br>
+            </p>
+            </div>
+
+        </div>
+
+        <div class="espaco"></div>
+
+        <div id="div-proj" class="vidro">
+            <p>
+                Falando um pouco sobre minhas capacidades e projetos.
+            </p>
+            <article>
+                <h2>O que eu busco:</h2>
+                <p>Atualmente estou a procura de uma oportunidade de trabalhar na área como desenvolvedor front-end, back-end ou FullStack.</p>
+                <p>Meu foco agora é estudar todas as matérias necessárias para ter um bom domínio sobre programação com JavaScript usando a biblioteca NodeJS, somando com Webpack + Babel e EsLint.</p>
+                <p>Eu também tenho um bom domínio de PHP e banco de dados relacional como o MySQL.</p>
+                <p>Algumas habilidades extras são o uso o JQuery, JSON, Wordpress, Bootstrap, servidores Linux, SSH, versionamento de softwares (Git), FTP, redes, infraestrutura em núvem e muitas outras Soft Skills que podem ser importantes dependendo da área de atuação.</p>
+            </article>
+           
+        </div>
+        </section>
+        
+        <div class="espaco"></div>
+
+        <footer class="vidro" id="commonFooter"></footer>
+
+    </div>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/script-conhecimentos.js"></script>
+</body>
+</html>

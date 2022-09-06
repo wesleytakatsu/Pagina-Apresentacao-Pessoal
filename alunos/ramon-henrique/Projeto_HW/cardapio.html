@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
+    <style>
+        #Bebidas {
+            font-size: 22px;
+            margin-left: 5px;  
+            width: 500px; 
+            font-size: 2em;        
+        }
+
+        #Consumiveis {
+            font-size: 22px;
+            margin-left: 5px;  
+            width: 500px;
+            font-size: 2em;          
+        }
+
+        .Produto {
+            font-family: 'Racing Sans One', cursive;
+            font-size: 25px;
+            color: hsl(59, 40%, 35%);
+            line-height: 2em;
+        }
+        .Tipos {
+            font-family: 'Abril Fatface', cursive;           
+            font-size: 23px;
+            font-style: oblique;
+            color: rgb(42, 139, 139);
+            line-height: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header id="Cabecalho" class="titulo">
+        <nav>
+            <p style="font-size: larger;"><a href="index.html"><img src="seta.png" alt="seta para voltar ao index"></a></p>
+        </nav>
+        <h1>Cardapio</h1>
+    </header>
+    <hr>
+    <div class="flexbox-container">
+        <div id="Consumiveis" >
+            <header">
+                <h1 class="titulo">Comestiveis</h1>
+            </header>
+            <div class="Produto">
+                <section>
+                    <ol type="I">
+                        <li>Doces
+                        <div class="Tipos">
+                            <ul type="square">
+                                <li>Sonho</li>
+                                <li>bolo</li>
+                            </ul>
+                        </div>
+                        <li>Salgados
+                        <div class="Tipos">
+                            <ul type="square">
+                                <li>Pastel</li>
+                                <li>Kibe</li>
+                            </ul>
+                        </div>
+                    </ol>
+                </section>
+            </div>
+        </div>
+        <div id="Bebidas">
+            <header>
+                <h1 class="titulo">Bebidas</h1>
+            </header>
+            <div class="Produto">
+                <section>
+                    <ol type="I">
+                        <li>Água
+                        <div class="Tipos">
+                            <!-- <table>
+                                <tr>
+                                    <td>Com Gás</td>
+                                    <td>R$ 5,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Sem Gás</td>
+                                    <td>R$ 2,00</td>
+                                </tr>
+                            </table> -->
+                            <ul type="square">
+                                <li>Com Gás</li>
+                                <li>Sem Gás</li>
+                            </ul>
+                        </div>
+                        <li>Café
+                        <div class="Tipos">
+                            <ul type="square">
+                                <li>Puro</li>
+                                <li>Com Leite</li>
+                            </ul>
+                        </div>
+                    </ol>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

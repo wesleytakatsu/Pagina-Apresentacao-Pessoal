@@ -1,0 +1,58 @@
+<!DOCTYPE html> <!--Index página principal-->
+<html lang="pt-br"> <!-- Linguagem-->
+<head>
+    <link rel="stylesheet" href="style.css"> <!--
+        linkar com o arquivo de CSS
+        rel está falando que vai ser linkado coomo folha de estilo
+    -->
+    <meta charset="UTF-8"> <!--Permitir colocar acentos-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Lua de Cristal</title> <!--Titulo da página-->
+</head>
+<body> 
+    <header> <!--Dizer onde é o Cabeçalho--> 
+        <div id="Cabecalho"> <!--Fazer divisão na página-->
+            <h1> <!--Título 1--> <!---->
+                Bem Vindo!
+                
+            </h1>
+            <h3> <!--Subtitulo-->
+                Possuimos uma variedade de produtos que irão atrair o seu paladar
+            </h3>
+        </div>
+    </header>
+    <!--<br> para quebra de linha-->
+    <!--<hr> para desenhar uma linha-->
+    <div class="flexbox-container"> <!--caixa flexivel/ uma caixa divisória que tem outras divs dentro-->
+        <section> <!-- onde vai estar o conteúdo --> 
+            <div id="Descricao"> 
+                <p>Neste estabelecimento você encontrará um excelente serviço que irá te satisfazer.</p>
+                <p>Nossos produtos farão você sonhar.</p> <!--Parágrafo-->    
+                <p>Com nossos preços<b><i> faremos você querer voltar.</i></b></p> <!--Parágrafo-->
+                <p>Caso queira saber mais sobre nós <a href="sobre.html">clique aqui</a></p>
+                <img src="sonho.jpg">                
+            </div>
+        </section> <!--Normalmente se faz section por div/ não se usa mais de uma div por section-->
+        <section> <!-- onde vai estar o conteúdo --> 
+            <div id="Menu"> 
+                <header>
+                    <h1>Menu</h1>
+                    <h2>Abaixo todos os itens que estão a venda</h2>
+                </header>
+                <section>
+                    <ul>
+                        <li>Sonho</li>
+                        <li>Pastel</li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+    </div>
+    <footer> <!--Roda pé-->
+        <div id="Rodape">
+            &copy; Desenvolvido por Ramon Henrique
+        </div>
+    </footer> <!-- &copy para aparecer uma imagem do copyright -->
+</body>
+</html>

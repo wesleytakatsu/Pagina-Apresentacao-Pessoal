@@ -1,0 +1,36 @@
+.menuContainer {
+  display: inline-block;
+  cursor: pointer;
+  /* PERSONALIZANDO POSIÇÃO */
+  list-style: none; 
+  margin: 0;
+  color: rgb(66, 40, 10);
+  position: absolute;
+  right: 5%;
+  top: 15px;
+}
+
+.menuBar1, .menuBar2, .menuBar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .menuBar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .menuBar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .menuBar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}

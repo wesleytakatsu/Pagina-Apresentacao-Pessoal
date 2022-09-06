@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(0, 0, 59);
+    color: chartreuse;
+    font-size: 1.3em;
+}
+a{
+    color: chartreuse;
+}
+a:visited{
+    color: chartreuse;
+}
+a:hover{
+    color: rgb(153, 72, 230);
+}
+
+.vidro{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.texto-centro{
+    text-align: center;
+    margin: 15px;
+}
+
+#lista-alunos{
+    width: 90%;
+    max-width: 800px;
+}
+
+.flexbox-container-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexbox-container-col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+a:hover{
+    color: red;
+}
+a{
+    color: forestgreen;
+}
+a:visited{
+    color: forestgreen;
+}
+#logo-takatsu{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+@media(max-width: 1150px) {
+    #logo-takatsu{
+        position: relative;
+    }
+}
