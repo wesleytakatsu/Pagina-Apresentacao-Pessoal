@@ -17,7 +17,7 @@ function carregaCertificado(nomeCertificado, imagemCertificado){
 
     const slideInside = document.getElementById('slideInside');
     slideInside.innerHTML = "<h2>" + nomeCertificado + ":</h2>" +
-    "<img src='colecao-de-certificados/jpg/" + imagemCertificado + "' alt='Certificação OCI' style='width: 80%;'>";
+    "<img src='Pagina-Apresentacao-Pessoal/colecao-de-certificados/jpg/" + imagemCertificado + "' alt='Certificação OCI' style='width: 80%;'>";
 
     $('#slide').fadeIn(800);
 }
