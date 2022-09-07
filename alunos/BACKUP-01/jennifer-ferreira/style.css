@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(251, 196, 225);
+    color: black;
+}
+
+#flexbox-container{
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: center;
+        background-color: rgb(138, 221, 221);
+        /*background-color: aquamarine;*/
+}
+#parte1{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(149, 180, 236);
+}
+#parte2{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(149, 180, 236);
+}

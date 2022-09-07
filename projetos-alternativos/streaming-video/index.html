@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projetos Alternativos</title>
+</head>
+<body>
+    <div id="logo-takatsu" class="flexbox-container">
+        <div id="logo-takatsu-imagem">
+            <img src="media/Logo-Takatsu-Projetos.png" alt="Logo Takatsu Projects">
+        </div>
+    </div>
+    <header>
+        <div class="vidro">
+            <h1>Página pessoal de filmes.</h1>
+            <h2>Lista de filmes de tecnologia.</h2>
+            <nav>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <div class="vidro flexbox-container">
+            <div id="catalogo">
+                    <!-- PARÂMETRO PARA SER POSTADO: videoEmbed, nomePasta, nomeFilme, pastaFilme, arquivoFilme
+                        videoEmbed - link embed do youtube
+                        nomePasta - pasta com as mídias do filme
+                        nomeFilme - Nome do filme por escrito
+                        pastaFilme - pasta onde fica o arquivo do filme
+                        arquivoFilme - nome do arquivo do filme
+                    -->
+                <a href="#tituloFilme" onclick="carregaFilme('https://www.youtube.com/embed/kAwIKMYN6UU', 'a-rede-social', 'A Rede Social', 'a-rede-social', 'a-rede-social');">A Rede Social</a><br><br>
+                <a href="#tituloFilme" onclick="carregaFilme('https://www.youtube.com/embed/cJkp4blUyl8', 'citizenfour', 'Citizenfour - Snowden, Herói ou Traidor', 'Snowden%20-%20Herói%20ou%20Traidor%202017%20WWW.BLUDV.COM', 'Snowden.Herói.ou.Traidor.2017.720p.BluRay.x264.DUAL-WWW.BLUDV.COM');">Citizenfour - Snowden, Herói ou Traidor</a><br><br>
+                Julian Assange<br><br>
+                Matrix<br><br>
+                Matrix Reloaded<br><br>
+                Matrix Revolutions<br><br>
+                Matrix Resurrection<br><br>
+                Animatrix<br><br>
+                <a href="#tituloFilme" onclick="carregaFilme('https://www.youtube.com/embed/-yYOFBGH36g', 'silkroad', 'Silk Road Mercado Clandestino', 'Silk.Road.Mercado.Clandestino.2021.BluRay.1080p.x264.DUAL.COMANDO.TO' ,'Silk.Road.Mercado.Clandestino.2021.BluRay.1080p.x264.DUAL.COMANDO.TO');">Silk Road Mercado Clandestino</a><br><br>
+                Avatar<br><br>
+                <a href="#tituloFilme" onclick="carregaFilme('https://www.youtube.com/embed/7R6SOPzjaxs', 'tpb-afk', 'The Pirate Bay - AFK', '','');">The Pirate Bay - AFK</a><br><br>
+
+
+            </div>
+            <div id="sinopse">
+                Que tal conhecer algum filme de ficção científica bem legal?
+            </div>
+        </div>
+        <div id="tituloFilme" class="vidro"></div>
+        <div class="vidro flexbox-container">
+            <div id="capa">
+                <img id='imagemCapa' src='https://c.tenor.com/OxIKfikF9IsAAAAM/s%C3%B3observo-watchin-movie.gif' alt='capa do filme' />
+                
+            </div>
+            <div id="trailer">
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/tST-F75I2To" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="vidro">
+            <marquee direction="right" scrollamount="40">
+                <img src="https://www.powersonic.com.br/downloads/gifs/rodrigox4/Sonic%20corre%20muito%20grande.gif" alt="Sonic correndo">
+            </marquee>
+            <h3>
+                Criado por Wesley Sieiro Takatsu de Araujo para fins educativos e uso pessoal.<br>
+                Estes filmes são para uso pessoal e não configura pirataria por não ser para distribuição.<br>
+            </h3>
+            
+        </div>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>

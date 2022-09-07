@@ -1,0 +1,91 @@
+body{
+    background-size: cover;
+    background-image: url('./media/background.webp');
+    color: bisque;
+    font-size: 1.5em;
+    text-align: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: bisque;
+}
+
+a:visited{
+    color: bisque;
+}
+
+a:hover{
+    color: rgb(211, 125, 20);
+}
+
+
+.vidro{
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 25px;
+    max-width: 90%;
+}
+
+.flexbox-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+@media(max-width: 950px) {
+
+}
+
+#catalogo{
+    max-width: 300px;
+    min-width: 250px;
+}
+
+#sinopse{
+    width: 50%;
+    max-width: 500px;
+    min-width: 400px;
+}
+
+#capa{
+    width: 250px;
+}
+#imagemCapa{
+    width: 250px;
+}
+
+#trailer{
+    max-width: 600px;
+}
+
+
+footer{
+    width: 100%;
+    bottom: 0;
+}
+
+
+#logo-takatsu{
+    position: absolute;
+    left: 5%;
+    top: 25px;
+}
+
+@media(max-width: 1150px) {
+    #logo-takatsu{
+        top: 0px;
+        position: relative;
+        
+    }
+    #logo-takatsu-imagem{
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 25px;
+    }
+}

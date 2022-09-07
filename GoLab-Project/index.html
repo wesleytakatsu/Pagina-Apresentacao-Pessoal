@@ -1,0 +1,122 @@
+<!--
+    CRIADO POR WESLEY SIEIRO TAKATSU DE ARAUJO
+    PROJETO PARA AVALIAÇÃO DE HABILIDADES FRONT-END
+-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-menu.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refazendo XD GoLab</title>
+</head>
+<body>
+    <div id="all-content">
+        <header>
+
+            <!-- CONTAINER PARA MANIPULAR TODA A PÁGINA COM FLEXBOX -->
+            <div class="flexbox-container-row flex-space-between">
+
+                <!-- MENU HAMBÚRGUER E MENU TEXTO -->
+                <div class="flexbox-container-row flex-flex-start">
+                    <div class="header">
+                        <div>
+                            <input class="menu-btn" type="checkbox" id="menu-btn" />
+                            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                            <ul class="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="XD.jpeg" target="_blank">Print XD</a></li>
+                            <li><a href="#">Notícias</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Sobre nós</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="menu-text">
+                        Menu
+                    </div>
+                </div>
+
+                <!-- BARRA DE BUSCA -->
+                <div id="search-bar-div">
+                    <form action="">
+                        <input type="text" name="search-text" size="25" placeholder="&#128269; O que você está procurando?" id="input-search-bar">
+                    </form>
+                </div>
+                
+                <!-- CÍRCULO CENTRAL NO TOPO -->
+                <div id="circle-grey"></div>
+                <div class="flexbox-container-row">
+                    <div id="weather-icon">
+                        &#127783;
+                    </div>
+                    <div id="weather-description">
+                        Rio de Janeiro<br>
+                        <span id="weather-tempmin">Min: 20º</b> 
+                        <span id="weather-tempmax">Max: 28º</b>
+                    </div>
+                </div>
+
+                <!-- ÁREA DO PERFIL BARRA SUPERIOR DIREITA -->
+                <div id="profile-div" class="flexbox-container-row">
+                    <div id="notification-icon">
+                        <div id="notification-alert"></div>
+                        &#x1F514;
+                    </div>
+                    <div id="profile-arrow">
+                        <span>
+                            <a href="">></a>
+                        </span>
+                    </div>
+                    <div>
+                        <img id="img-profile" src="silviosantos.jpeg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+        <nav> <!-- BARRA DE NAVEGAÇÃO HORIZONTAL  -->
+            <div class="flexbox-container-row flex-space-evenly">
+                <div>NOTÍCIAS</div>
+                <div>ESPORTES</div>
+                <div>ENTRETENIMENTO</div>
+                <div>CARROS</div>
+                <div>TV E FAMÍLIA</div>
+                <div>PLANETA</div>
+                <div>ECONOMIA</div>
+                <div>SAÚDE</div>
+            </div>
+
+        </nav>
+        <main>
+            <div>
+                <div id="news-top">
+
+                </div>
+            </div>
+            
+            <br>
+            
+            <div class="flexbox-container-row flex-space-evenly">
+                <div>
+                    <h3>Imagem para me basear</h3>
+                    <img src="XD.jpeg" alt="" style="width: 950px;">
+                </div>
+            </div>
+            
+        </main>
+        <footer>
+            <div class="flexbox-container-row flex-space-between">
+                <div></div>
+                <div id="circle-white"></div>
+                <div></div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
